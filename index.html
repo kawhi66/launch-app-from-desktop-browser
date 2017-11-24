@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>metro</title>
+    <link rel="stylesheet" type="text/css" media="all" href="css/metro.css" />
+    <!--[if lte IE 6]>
+		<style type="text/css">
+			body { behavior:url("css/csshover.htc"); }
+		</style>
+	<![endif]-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.plugins.min.js"></script>
+    <script type="text/javascript" src="js/metro.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+</head>
+
+<body>
+    <div class="metro-layout horizontal">
+        <div class="header">
+            <!--<h1></h1>
+            <div class="controls">
+                <span class="down" title="Scroll down"></span>
+                <span class="up" title="Scroll up"></span>
+                <span class="next" title="Scroll left"></span>
+                <span class="prev" title="Scroll right"></span>
+                <span class="toggle-view" title="Toggle layout"></span>
+            </div>-->
+        </div>
+        <div class="content clearfix">
+            <div class="items">
+                <a class="box none" href="javascript:void(0);"><span>android</span><img class="icon" src="images/blue/android.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>bing</span><img class="icon" src="images/green/bing.png" alt="" /></a>
+                <a class="box none purple" href="javascript:void(0);"><span>code</span><img class="icon" src="images/purple/code.png" alt="" /></a>
+                <a class="box none width2 height2" href="javascript:void(0);"><span>Photos</span><img class="cover" src="images/jpg/gallery.jpg" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>dropbox</span><img class="icon" src="images/blue/dropbox.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>evernote</span><img class="icon" src="images/green/evernote.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Download</span><img class="icon" src="images/blue/download.png" alt="" /></a>
+                <a class="box none height2 purple" href="javascript:void(0);"><span>Gizmodo</span><img class="icon big" src="images/purple/gizmodo.png" alt="" /></a>
+                <a class="box none purple" href="javascript:void(0);"><span>Facebook</span><img class="icon" src="images/purple/facebook.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Google</span><img class="icon" src="images/blue/google.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>Digg</span><img class="icon" src="images/green/digg.png" alt="" /></a>
+                <a class="box none height2 green" href="javascript:void(0);"><span>Deviantart</span><img class="icon big" src="images/green/deviantart.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Basket</span><img class="icon" src="images/blue/basket-empty.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Foursquare</span><img class="icon" src="images/blue/foursquare.png" alt="" /></a>
+                <a class="box none green height2" href="javascript:void(0);"><span>Games</span><img class="icon" src="images/green/games.png" alt="" /></a>
+                <a class="box none purple" href="javascript:void(0);"><span>Games2</span><img class="icon" src="images/purple/games2.png" alt="" /></a>
+                <a class="box none width2 height2" href="javascript:void(0);"><span>Photos</span><img class="cover" src="images/jpg/00.jpg" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Gizmodo</span><img class="icon" src="images/blue/gizmodo.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>Gmail</span><img class="icon" src="images/green/gmail.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Google</span><img class="icon" src="images/blue/google.png" alt="" /></a>
+                <a class="box none height2 purple" href="javascript:void(0);"><span>Google2</span><img class="icon big" src="images/purple/google2.png" alt="" /></a>
+                <a class="box none purple" href="javascript:void(0);"><span>Googledisk</span><img class="icon" src="images/purple/googledisk.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Gplus</span><img class="icon" src="images/blue/gplus.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>Grooveshark</span><img class="icon" src="images/green/grooveshark.png" alt="" /></a>
+                <a class="box none height2 green" href="javascript:void(0);"><span>Html</span><img class="icon big" src="images/green/html.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Instagram</span><img class="icon" src="images/blue/instagram.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Java</span><img class="icon" src="images/blue/java.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>Jira</span><img class="icon" src="images/green/jira.png" alt="" /></a>
+                <a class="box none purple" href="javascript:void(0);"><span>Lastfm</span><img class="icon" src="images/purple/lastfm.png" alt="" /></a>
+                <a class="box none width2 height2" href="javascript:void(0);"><span>Photos</span><img class="cover" src="images/jpg/01.jpg" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Linkedin</span><img class="icon" src="images/blue/linkedin.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>Mailkit</span><img class="icon" src="images/green/mailkit.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Motorola</span><img class="icon" src="images/blue/motorola.png" alt="" /></a>
+                <a class="box none height2 purple" href="javascript:void(0);"><span>Myspace</span><img class="icon big" src="images/purple/myspace.png" alt="" /></a>
+                <a class="box none purple" href="javascript:void(0);"><span>Network</span><img class="icon" src="images/purple/network.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Orders</span><img class="icon" src="images/blue/orders.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>Php</span><img class="icon" src="images/green/php.png" alt="" /></a>
+                <a class="box none height2 green" href="javascript:void(0);"><span>Pinterest</span><img class="icon big" src="images/green/pinterest.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Play</span><img class="icon" src="images/blue/play.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Reddit</span><img class="icon" src="images/blue/reddit.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>Rss</span><img class="icon" src="images/green/rss.png" alt="" /></a>
+                <a class="box none purple" href="javascript:void(0);"><span>Seznam</span><img class="icon" src="images/purple/seznam.png" alt="" /></a>
+                <a class="box none width2 height2" href="javascript:void(0);"><span>Photos</span><img class="cover" src="images/jpg/02.jpg" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Seznam2</span><img class="icon" src="images/blue/seznam2.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>Shared</span><img class="icon" src="images/green/shared.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Skydrive</span><img class="icon" src="images/blue/skydrive.png" alt="" /></a>
+                <a class="box none height2 purple" href="javascript:void(0);"><span>Win7</span><img class="icon big" src="images/purple/win7.png" alt="" /></a>
+                <a class="box none purple" href="javascript:void(0);"><span>Skype</span><img class="icon" src="images/purple/skype.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Soundcloud</span><img class="icon" src="images/blue/soundcloud.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>Steam</span><img class="icon" src="images/green/steam.png" alt="" /></a>
+                <a class="box none height2 green" href="javascript:void(0);"><span>Stumbleupon</span><img class="icon big" src="images/green/stumbleupon.png" alt="" /></a>
+                <a class="box none width2 height2" href="javascript:void(0);"><span>Photos</span><img class="cover" src="images/jpg/03.jpg" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Teamviewer</span><img class="icon" src="images/blue/teamviewer.png" alt="" /></a>
+                <a class="box none height2 purple" href="javascript:void(0);"><span>Technorati</span><img class="icon big" src="images/purple/technorati.png" alt="" /></a>
+                <a class="box none purple" href="javascript:void(0);"><span>Template</span><img class="icon" src="images/purple/template.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Twitter</span><img class="icon" src="images/blue/twitter.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>Win8</span><img class="icon" src="images/green/win8.png" alt="" /></a>
+                <a class="box none green" href="javascript:void(0);"><span>Xda</span><img class="icon big" src="images/green/xda.png" alt="" /></a>
+                <a class="box none" href="javascript:void(0);"><span>Youtube</span><img class="icon" src="images/blue/youtube.png" alt="" /></a>
+            </div>
+        </div>
+        <div class="controls">
+            <span class="next" title="Scroll left"></span>
+            <span class="prev" title="Scroll right"></span>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var me = this;
+        /// insert start
+        /// insert end
+
+        if (me.localSet && !$.isEmptyObject(me.localSet)) {
+            var i = 0;
+            var box = $(".box");
+            for (e in me.localSet) {
+                box.eq(i).attr("href", me.localSet[e] + "://").removeClass("none").find("span").html(e);
+                i++;
+            }
+        }
+    </script>
+    <!--[if IE 6]>
+	<script src="js/DDPngMin.js"></script>
+	<script>DD_belatedPNG.fix('.controls span');</script>
+	<![endif]-->
+</body>
+
+</html>
