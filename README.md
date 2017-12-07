@@ -6,7 +6,7 @@
 
 ## Usage ##
 
-	# 在 Windows 平台下以管理员身份启动默认	bash
+	# 在 Windows 平台下以管理员身份启动默认 bash
 
     # 克隆项目到本地
     git clone https://github.com/yycsrkl/launch-app-from-desktop-browser.git
